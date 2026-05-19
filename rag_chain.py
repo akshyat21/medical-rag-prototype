@@ -1,31 +1,35 @@
-from langchain_community.document_loaders import CSVLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
-import os
+import pandas as pd
+import numpy as np
+from transformers import AutoTokenizer, AutoModel
+import torch
+from sklearn.metrics.pairwise import cosine_similarity
 
-loader = CSVLoader(file_path="medical_data.csv", source_column="question")
-documents = loader.load()
-print(f"Loaded {len(documents)} documents.")
+# Load CSV
+df = pd.read_csv("medical_data.csv")
+questions = df["question"].tolist()
+answers = df["answer"].tolist()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=30)
-chunks = text_splitter.split_documents(documents)
-print(f"Split into {len(chunks)} chunks.")
+# Load embedding model (same as before, but using transformers)
+model_name = "sentence-transformers/all-MiniLM-L6-v2"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModel.from_pretrained(model_name)
 
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-print("Embeddings model loaded.")
+def embed_texts(texts):
+    """Generate embeddings for a list of texts."""
+    inputs = tokenizer(texts, padding=True, truncation=True, return_tensors="pt")
+    with torch.no_grad():
+        outputs = model(**inputs)
+    # Use mean pooling to get sentence embeddings
+    embeddings = outputs.last_hidden_state.mean(dim=1)
+    return embeddings.numpy()
 
-vector_store = Chroma.from_documents(chunks, embedding_model, persist_directory="./chroma_db")
-vector_store.persist()
-print("Vector store created and persisted to ./chroma_db.")
+# Pre‑compute embeddings for all questions (runs once at startup)
+question_embeddings = embed_texts(questions)
 
 def get_relevant_context(question: str, k: int = 3) -> str:
-    """Return top k relevant chunks as a single string"""
-    docs = vector_store.similarity_search(question, k=k)
-    context = "\n\n".join([doc.page_content for doc in docs])
+    """Return top k relevant answers as a single string."""
+    q_emb = embed_texts([question])
+    similarities = cosine_similarity(q_emb, question_embeddings)[0]
+    top_indices = np.argsort(similarities)[-k:][::-1]
+    context = "\n\n".join([answers[i] for i in top_indices])
     return context
-
-if __name__ == "__main__":
-    test_q = "What is the first-line treatment for hypertension?"
-    context = get_relevant_context(test_q)
-    print("Retrieved context:\n", context)
