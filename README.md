@@ -3,7 +3,6 @@
 A **Retrieval-Augmented Generation (RAG)** system that answers medical questions using a curated knowledge base.  
 It combines vector search (sentence‑transformers) with a large language model (Groq Llama 3.3) to produce accurate, context‑grounded answers.
 
-
 ---
 
 ## 🧠 How It Works
@@ -24,10 +23,6 @@ It combines vector search (sentence‑transformers) with a large language model 
 
 ---
 
-
-
----
-
 ## 🚀 Run Locally
 
 ### Prerequisites
@@ -36,19 +31,23 @@ It combines vector search (sentence‑transformers) with a large language model 
 
 ### Steps
 
- **Clone the repository**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/akshyat21/medical-rag-prototype.git
    cd medical-rag-prototype
 
-
-   python -m venv venv
-   source venv/bin/activate      # Linux/Mac
+2. **create a virtual environment**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate      # Linux/Mac
     venv\Scripts\activate         # Windows
 
+3. **Install dependencies**
+    ```bash
     pip install -r requirements.txt
 
+4. **Update API key in .env file, GROQ_API_KEY=your_key_here**
 
-    GROQ_API_KEY=your_key_here
-
+5. **Run the streamlit app**
+    ```bash
     streamlit run app.py
