@@ -1,31 +1,103 @@
 question,answer
-What is the first-line treatment for hypertension?,ACE inhibitors such as lisinopril or ARBs like losartan are commonly used as first-line treatment for hypertension. Lifestyle changes (low sodium diet, exercise) are also essential.
-How to manage type 2 diabetes?,Metformin is the initial medication of choice for type 2 diabetes, along with lifestyle modifications like diet and exercise. Weight loss and monitoring blood sugar are key.
-What is the normal range for blood pressure?,Normal blood pressure is below 120/80 mmHg. Elevated blood pressure is 120-129/<80, and hypertension stage 1 is 130-139/80-89.
-What are symptoms of myocardial infarction?,Chest pain or discomfort, shortness of breath, nausea, lightheadedness, and pain radiating to the left arm, jaw, or back. Seek emergency care immediately.
-What vaccine is given for pneumonia?,Pneumococcal vaccine (PCV13 or PPSV23) is recommended for adults over 65 and high-risk groups (e.g., chronic lung disease, diabetes).
-What is the recommended daily sodium intake for hypertensive patients?,The American Heart Association recommends no more than 2300 mg per day, with an ideal limit of 1500 mg for most adults with hypertension.
-What is the first-line medication for type 2 diabetes?,Metformin is usually the first medication prescribed for type 2 diabetes. It works by lowering glucose production in the liver.
-How often should blood pressure be checked in a healthy adult?,At least once every two years if blood pressure is normal, more often if borderline or high (e.g., every 6-12 months).
-What is the target LDL cholesterol level for high‑risk patients?,Below 70 mg/dL is recommended for very high-risk patients (e.g., those with existing heart disease or diabetes).
-What lifestyle changes help lower cholesterol?,Diet low in saturated fats and trans fats, regular aerobic exercise, weight management, smoking cessation, and increased soluble fiber intake.
-What is the difference between a heart attack and cardiac arrest?,A heart attack (myocardial infarction) is a blockage of blood flow to the heart. Cardiac arrest is an electrical problem that causes the heart to stop beating. Both are emergencies.
-What are the signs of a stroke?,Sudden numbness or weakness of the face, arm, or leg (especially on one side), confusion, trouble speaking, vision problems, loss of balance, severe headache.
-How can you prevent deep vein thrombosis during long flights?,Stay hydrated, move your legs frequently, do calf exercises, wear compression stockings, and avoid crossing legs for long periods.
-What is the recommended treatment for mild asthma?,Short-acting beta agonists (e.g., albuterol) as rescue inhaler. For persistent symptoms, low-dose inhaled corticosteroids.
-What is the normal fasting blood glucose level?,Normal: below 100 mg/dL. Prediabetes: 100-125 mg/dL. Diabetes: 126 mg/dL or higher on two separate tests.
-What is the difference between type 1 and type 2 diabetes?,Type 1 is autoimmune destruction of insulin-producing cells; requires insulin. Type 2 is insulin resistance; often managed with oral meds and lifestyle changes.
-What are common side effects of statins?,Muscle pain or weakness, elevated liver enzymes, digestive issues. Rare: muscle breakdown (rhabdomyolysis).
-What is the best way to treat a common cold?,Rest, hydration, honey for cough, saline nasal spray, over‑the‑counter pain relievers (acetaminophen or ibuprofen). Antibiotics do not work.
-What is the role of aspirin in heart attack prevention?,Low-dose aspirin (81 mg daily) may be prescribed for secondary prevention in patients with known cardiovascular disease. Not recommended for all healthy adults.
-What is the normal respiratory rate for an adult?,12-20 breaths per minute at rest. Values above or below may indicate respiratory distress or other conditions.
-What is the difference between a sprain and a strain?,Sprain: injury to a ligament (bone-to-bone). Strain: injury to a muscle or tendon (muscle-to-bone).
-What are the warning signs of a migraine?,Usually unilateral throbbing headache, nausea, sensitivity to light/sound, visual aura (flashing lights, zigzag lines) in some cases.
-How to treat mild dehydration?,Drink water or oral rehydration solution. Avoid sugary drinks. Severe dehydration requires intravenous fluids.
-What is the normal body temperature range?,97°F to 99°F (36.1°C to 37.2°C) orally. Slightly lower in mornings, higher in evenings.
-What is the first aid for a minor burn?,Cool the burn under running cool (not cold) water for 10-15 minutes, cover with a sterile gauze, do not apply ice or butter.
-What are symptoms of low blood sugar (hypoglycemia)?,Sweating, shakiness, dizziness, hunger, confusion, irritability, fast heartbeat. Severe: loss of consciousness.
-What should you do if someone is choking?,Perform the Heimlich maneuver: abdominal thrusts. If unconscious, start CPR and call emergency services.
-What is the difference between a CT scan and MRI?,CT uses X‑rays; better for bones, lungs, and bleeding. MRI uses magnetic fields; better for soft tissues (brain, spinal cord, joints).
-How often should women have a Pap smear?,Every 3 years for ages 21-29; every 5 years for ages 30-65 if combined with HPV testing. Follow local guidelines.
-What is the purpose of the influenza vaccine?,To reduce the risk of getting seasonal flu and its complications (pneumonia, hospitalisation). Annual vaccination is recommended.
+"What is the first-line treatment for hypertension?","ACE inhibitors (e.g., lisinopril) or ARBs (e.g., losartan) are commonly used as first-line treatment for hypertension. Lifestyle changes (low sodium diet, exercise, weight loss) are also essential."
+"How to manage type 2 diabetes?","Metformin is the initial medication of choice for type 2 diabetes, along with lifestyle modifications like diet and exercise. Weight loss and blood sugar monitoring are key."
+"What is the normal range for blood pressure?","Normal blood pressure is below 120/80 mmHg. Elevated blood pressure is 120-129/<80, and hypertension stage 1 is 130-139/80-89."
+"What are symptoms of myocardial infarction?","Chest pain or discomfort, shortness of breath, nausea, lightheadedness, and pain radiating to the left arm, jaw, or back. Seek emergency care immediately."
+"What vaccine is given for pneumonia?","Pneumococcal vaccine (PCV13 or PPSV23) is recommended for adults over 65 and high-risk groups (e.g., chronic lung disease, diabetes)."
+"What is the recommended daily sodium intake for hypertensive patients?","The American Heart Association recommends no more than 2300 mg per day, with an ideal limit of 1500 mg for most adults with hypertension."
+"What is the first-line medication for type 2 diabetes?","Metformin is usually the first medication prescribed for type 2 diabetes. It works by lowering glucose production in the liver."
+"How often should blood pressure be checked in a healthy adult?","At least once every two years if blood pressure is normal, more often if borderline or high (e.g., every 6-12 months)."
+"What is the target LDL cholesterol level for high‑risk patients?","Below 70 mg/dL is recommended for very high-risk patients (e.g., those with existing heart disease or diabetes)."
+"What lifestyle changes help lower cholesterol?","Diet low in saturated fats and trans fats, regular aerobic exercise, weight management, smoking cessation, and increased soluble fiber intake."
+"What is the difference between a heart attack and cardiac arrest?","A heart attack (myocardial infarction) is a blockage of blood flow to the heart. Cardiac arrest is an electrical problem that causes the heart to stop beating. Both are emergencies."
+"What are the signs of a stroke?","Sudden numbness or weakness of the face, arm, or leg (especially on one side), confusion, trouble speaking, vision problems, loss of balance, severe headache."
+"How can you prevent deep vein thrombosis during long flights?","Stay hydrated, move your legs frequently, do calf exercises, wear compression stockings, and avoid crossing legs for long periods."
+"What is the recommended treatment for mild asthma?","Short-acting beta agonists (e.g., albuterol) as rescue inhaler. For persistent symptoms, low-dose inhaled corticosteroids."
+"What is the normal fasting blood glucose level?","Normal: below 100 mg/dL. Prediabetes: 100-125 mg/dL. Diabetes: 126 mg/dL or higher on two separate tests."
+"What is the difference between type 1 and type 2 diabetes?","Type 1 is autoimmune destruction of insulin-producing cells; requires insulin. Type 2 is insulin resistance; often managed with oral meds and lifestyle changes."
+"What are common side effects of statins?","Muscle pain or weakness, elevated liver enzymes, digestive issues. Rare: muscle breakdown (rhabdomyolysis)."
+"What is the best way to treat a common cold?","Rest, hydration, honey for cough, saline nasal spray, over‑the‑counter pain relievers (acetaminophen or ibuprofen). Antibiotics do not work."
+"What is the role of aspirin in heart attack prevention?","Low-dose aspirin (81 mg daily) may be prescribed for secondary prevention in patients with known cardiovascular disease. Not recommended for all healthy adults."
+"What is the normal respiratory rate for an adult?","12-20 breaths per minute at rest. Values above or below may indicate respiratory distress or other conditions."
+"What is the difference between a sprain and a strain?","Sprain: injury to a ligament (bone-to-bone). Strain: injury to a muscle or tendon (muscle-to-bone)."
+"What are the warning signs of a migraine?","Usually unilateral throbbing headache, nausea, sensitivity to light/sound, visual aura (flashing lights, zigzag lines) in some cases."
+"How to treat mild dehydration?","Drink water or oral rehydration solution. Avoid sugary drinks. Severe dehydration requires intravenous fluids."
+"What is the normal body temperature range?","97°F to 99°F (36.1°C to 37.2°C) orally. Slightly lower in mornings, higher in evenings."
+"What is the first aid for a minor burn?","Cool the burn under running cool (not cold) water for 10-15 minutes, cover with a sterile gauze, do not apply ice or butter."
+"What are symptoms of low blood sugar (hypoglycemia)?","Sweating, shakiness, dizziness, hunger, confusion, irritability, fast heartbeat. Severe: loss of consciousness."
+"What should you do if someone is choking?","Perform the Heimlich maneuver: abdominal thrusts. If unconscious, start CPR and call emergency services."
+"What is the difference between a CT scan and MRI?","CT uses X‑rays; better for bones, lungs, and bleeding. MRI uses magnetic fields; better for soft tissues (brain, spinal cord, joints)."
+"How often should women have a Pap smear?","Every 3 years for ages 21-29; every 5 years for ages 30-65 if combined with HPV testing. Follow local guidelines."
+"What is the purpose of the influenza vaccine?","To reduce the risk of getting seasonal flu and its complications (pneumonia, hospitalisation). Annual vaccination is recommended."
+"What is the normal range for white blood cell count?","4,500 to 11,000 white blood cells per microliter of blood (4.5-11.0 × 10^9/L)."
+"What is the treatment for mild allergic reaction?","Oral antihistamines (e.g., cetirizine, diphenhydramine). Severe reactions (anaphylaxis) require epinephrine injection."
+"How to prevent antibiotic resistance?","Take antibiotics exactly as prescribed, never share or save antibiotics, and only use them for bacterial infections (not viruses)."
+"What is the healthy BMI range?","18.5 to 24.9 kg/m². Below 18.5 is underweight, 25-29.9 overweight, above 30 obese."
+"What is the best sleeping position for lower back pain?","Sleep on your side with a pillow between your knees, or on your back with a pillow under your knees. Avoid sleeping on your stomach."
+"What are the symptoms of COVID-19?","Fever, cough, shortness of breath, fatigue, loss of taste or smell, sore throat, headache. Symptoms vary."
+"What is the first aid for a nosebleed?","Lean forward slightly, pinch the soft part of the nose for 10-15 minutes, apply cold compress to the bridge. Do not tilt head back."
+"What is the normal hemoglobin level for adult men?","13.5 to 17.5 grams per deciliter (g/dL). For adult women: 12.0 to 15.5 g/dL."
+"How to prevent kidney stones?","Drink plenty of water (2-3 L/day), limit sodium and animal protein, eat calcium‑rich foods, avoid excess oxalate (spinach, nuts)."
+"What is the treatment for scabies?","Permethrin cream (5%) applied to the whole body from neck down, left on for 8-14 hours, then washed off. All household members should be treated."
+"What are the signs of dehydration in elderly?","Dry mouth, sunken eyes, confusion, low blood pressure, dark urine, weakness. Elderly are at higher risk."
+"What is the normal heart rate for an adult at rest?","60-100 beats per minute. Well‑trained athletes may have lower rates (40-60 bpm)."
+"How to perform CPR on an adult?","Push hard and fast at 100-120 compressions per minute, depth 2 inches (5 cm). Allow full chest recoil. Use AED as soon as available."
+"What is the difference between dementia and Alzheimer's disease?","Dementia is an umbrella term for cognitive decline; Alzheimer's is the most common cause (60-80% of cases)."
+"What foods are high in iron?","Red meat, poultry, fish, beans, lentils, spinach, fortified cereals, and dried fruit (apricots, raisins)."
+"What is the treatment for mild acne?","Over‑the‑counter benzoyl peroxide or salicylic acid. For persistent acne, topical retinoids or antibiotics may be prescribed."
+"How to lower uric acid levels (gout prevention)?","Drink plenty of water, avoid purine‑rich foods (red meat, seafood, alcohol), eat cherries, and take medications like allopurinol if prescribed."
+"What is the normal TSH (thyroid stimulating hormone) level?","0.4 to 4.0 mIU/L is generally considered normal. Ranges may vary slightly by laboratory."
+"What are symptoms of vitamin D deficiency?","Fatigue, bone pain, muscle weakness, mood changes, frequent infections. Severe deficiency can cause rickets in children."
+"What is the first aid for a venomous snake bite?","Keep the person calm, immobilise the affected limb, remove jewellery, and seek emergency medical help immediately. Do not apply ice or tourniquet."
+"How to perform a testicular self‑exam?","Stand in front of a mirror, check for swelling, then gently roll each testicle between thumb and fingers. Feel for lumps or hardness."
+"What is the normal A1c level for non‑diabetic adults?","Below 5.7%. Prediabetes: 5.7-6.4%. Diabetes: 6.5% or higher."
+"What are the benefits of probiotics?","They may improve digestive health, reduce antibiotic‑associated diarrhoea, support immune function, and help manage irritable bowel syndrome (IBS)."
+"What is the treatment for a urinary tract infection (UTI)?","Antibiotics (e.g., trimethoprim/sulfamethoxazole, nitrofurantoin). Drink plenty of water and avoid bladder irritants (caffeine, alcohol)."
+"What is the normal range for potassium in blood?","3.6 to 5.2 millimoles per liter (mmol/L). Low potassium (hypokalemia) or high potassium (hyperkalemia) can be dangerous."
+"How to prevent osteoporosis?","Consume adequate calcium and vitamin D, perform weight‑bearing exercises, avoid smoking, limit alcohol, and consider medications if high risk."
+"What are symptoms of anaphylaxis?","Sudden hives, swelling of lips/tongue, difficulty breathing, wheezing, dizziness, rapid pulse, loss of consciousness. This is a medical emergency."
+"What is the first aid for a seizure?","Cushion the head, remove nearby objects, turn the person on their side to keep airway clear, time the seizure. Do not put anything in the mouth."
+"What is the normal bilirubin level in adults?","Total bilirubin: 0.3 to 1.0 mg/dL. Higher levels may indicate liver problems or gallbladder disease."
+"How to treat a minor cut or scrape?","Clean with soap and water, apply antibiotic ointment, cover with sterile bandage. Change dressing daily."
+"What is the difference between a virus and bacteria?","Viruses are smaller and require a host cell to replicate (e.g., cold, flu). Bacteria are single‑celled organisms that can live independently (e.g., strep throat, UTI)."
+"What are the symptoms of gallstones?","Sudden, intense pain in the upper right abdomen, pain after fatty meals, nausea, vomiting, jaundice (if bile duct blocked)."
+"What is the treatment for mild to moderate depression?","Cognitive‑behavioral therapy (CBT), selective serotonin reuptake inhibitors (SSRIs) like fluoxetine or sertraline, lifestyle changes (exercise, sleep)."
+"What is the normal platelet count?","150,000 to 450,000 platelets per microliter of blood. Low counts (thrombocytopenia) increase bleeding risk."
+"How to prevent heat stroke?","Stay hydrated, avoid strenuous activity during peak heat, wear light clothing, take breaks in cool areas, never leave anyone in a parked car."
+"What are the signs of a blood clot in the leg (DVT)?","Swelling, pain or tenderness, warmth, redness, discoloration. Usually affects one leg. Seek medical attention promptly."
+"What is the treatment for mild eczema?","Moisturisers, topical corticosteroids, avoid triggers (soaps, allergens). For severe cases, immunosuppressants or phototherapy."
+"What is the normal oxygen saturation (SpO2) for a healthy person?","95% to 100%. Below 90% indicates hypoxemia and may require supplemental oxygen."
+"How to perform a breast self‑exam?","Look for changes in size, shape, or skin texture. Feel for lumps or thickening while lying down or in the shower. Report any changes to a doctor."
+"What is the first aid for a foreign body in the eye?","Do not rub the eye. Flush with clean water or saline for 15-20 minutes. If object is embedded, do not remove – seek emergency care."
+"What are the symptoms of food poisoning?","Nausea, vomiting, diarrhoea, abdominal pain, fever, chills. Symptoms usually appear within hours to days after eating contaminated food."
+"What is the treatment for mild to moderate anxiety?","Cognitive‑behavioral therapy (CBT), selective serotonin reuptake inhibitors (SSRIs), relaxation techniques (deep breathing, meditation), lifestyle changes."
+"What is the normal creatinine level for adults?","0.6 to 1.2 mg/dL for men, 0.5 to 1.1 mg/dL for women. Higher levels may indicate kidney dysfunction."
+"How to prevent falls in the elderly?","Remove tripping hazards, improve lighting, install grab bars, use non‑slip mats, exercise for balance and strength, review medications."
+"What are the symptoms of a concussion?","Headache, confusion, dizziness, nausea, blurred vision, sensitivity to light or noise, memory loss, mood changes."
+"What is the treatment for a mild sprain?","RICE: Rest, Ice (20 min every 2-3 hours), Compression (elastic bandage), Elevation above heart level. Over‑the‑counter pain relievers."
+"What is the normal red blood cell count?","Men: 4.5-5.9 million cells/mcL; Women: 4.1-5.1 million cells/mcL. Low counts indicate anaemia."
+"How to treat a blister?","Do not pop it. Cover with a loose bandage. If it pops, clean with soap and water, apply antibiotic ointment, and cover."
+"What are the signs of a kidney infection?","Fever, chills, back or side pain, nausea, vomiting, frequent painful urination, cloudy or bloody urine."
+"What is the treatment for mild to moderate psoriasis?","Topical corticosteroids, vitamin D analogues, moisturisers, phototherapy. For severe cases, biologics or systemic medications."
+"What is the normal calcium level in blood?","8.5 to 10.2 mg/dL. Abnormal levels can affect bones, kidneys, and heart."
+"How to prevent travellers' diarrhoea?","Avoid tap water, ice, raw fruits/vegetables, and undercooked food. Use bottled water for brushing teeth. Consider prophylactic antibiotics for high‑risk travel."
+"What are the symptoms of a peptic ulcer?","Gnawing or burning abdominal pain (often worse between meals or at night), bloating, heartburn, nausea. Severe cases: vomiting blood, black stools."
+"What is the treatment for a mild allergic reaction to insect stings?","Remove stinger if visible, wash area with soap, apply cold compress, take oral antihistamine. Severe reactions (anaphylaxis) require epinephrine."
+"What is the normal albumin level?","3.5 to 5.0 g/dL. Low albumin may indicate liver disease, kidney disease, or malnutrition."
+"How to prevent motion sickness?","Sit in front seat of car, focus on horizon, avoid heavy meals before travel, use over‑the‑counter antihistamines (dimenhydrinate) or scopolamine patch."
+"What are the symptoms of a herniated disc?","Sharp or shooting pain in arm or leg, numbness or tingling, muscle weakness. Pain often worsens with movement, coughing, or sneezing."
+"What is the treatment for a mild case of athlete's foot?","Over‑the‑counter antifungal creams (clotrimazole, terbinafine), keep feet dry, wear breathable shoes, change socks daily."
+"What is the normal INR (International Normalized Ratio) for people not on blood thinners?","0.8 to 1.1. For patients on warfarin, target range is usually 2.0-3.0."
+"How to prevent constipation?","Drink plenty of water, eat high‑fibre foods (fruits, vegetables, whole grains), exercise regularly, respond to urge to defecate."
+"What are the symptoms of a sinus infection?","Facial pain or pressure, nasal congestion, thick yellow/green discharge, headache, fever, tooth pain, reduced sense of smell."
+"What is the treatment for a mild case of conjunctivitis (pink eye)?","Viral conjunctivitis: self‑limiting, use cold compresses, artificial tears. Bacterial: antibiotic eye drops. Allergic: antihistamine eye drops."
+"What is the normal eosinophil count?","0 to 500 cells per microliter of blood (0-5% of total white blood cells). High counts may indicate allergies, parasites, or certain inflammatory conditions."
+"How to prevent insect bites?","Use insect repellent (DEET, picaridin), wear long sleeves and pants, avoid scented products, use mosquito nets when sleeping."
+"What are the symptoms of a kidney stone?","Severe pain in side and back (below ribs), pain that radiates to lower abdomen and groin, painful urination, pink/brown urine, nausea, vomiting."
+"What is the treatment for a mild case of rosacea?","Avoid triggers (sun, spicy foods, alcohol), use gentle skincare, topical metronidazole or azelaic acid. Oral antibiotics for moderate cases."
+"What is the normal ferritin level?","Men: 24-336 ng/mL; Women: 11-307 ng/mL. Low ferritin indicates iron deficiency; high ferritin may indicate inflammation or iron overload."
+"How to prevent ear infections in children?","Breastfeed for at least 6 months, avoid secondhand smoke, keep immunisations up to date (pneumococcal and flu vaccines), limit pacifier use."
+"What are the symptoms of a bladder infection?","Frequent, painful urination, cloudy or strong‑smelling urine, pelvic discomfort, low‑grade fever. Without treatment, may progress to kidney infection."
+"What is the treatment for a mild case of eczema in children?","Daily moisturisers, mild topical corticosteroids (hydrocortisone), avoid triggers (soaps, detergents, wool), lukewarm baths."
+"What is the normal neutrophil count?","2,500 to 7,000 cells per microliter of blood (40-70% of white blood cells). Low neutrophils (neutropenia) increase infection risk."
+"How to prevent carpal tunnel syndrome?","Take frequent breaks, stretch hands and wrists, keep wrists in neutral position, use ergonomic tools, maintain good posture."

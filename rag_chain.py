@@ -1,25 +1,42 @@
+# rag_chain.py
 import pandas as pd
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
+import csv
+from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
+import numpy as np
 
-# Load CSV
-df = pd.read_csv("medical_data.csv")
+# Load CSV with robust quoting
+try:
+    df = pd.read_csv("medical_data.csv", quoting=csv.QUOTE_ALL)
+except Exception as e:
+    print(f"Pandas failed: {e}")
+    # Manual fallback: read line by line
+    questions = []
+    answers = []
+    with open("medical_data.csv", "r") as f:
+        reader = csv.reader(f)
+        header = next(reader)  # skip header
+        for row in reader:
+            if len(row) >= 2:
+                q = row[0].strip()
+                a = row[1].strip()
+                if q and a:
+                    questions.append(q)
+                    answers.append(a)
+    df = pd.DataFrame({"question": questions, "answer": answers})
+
+print(f"Loaded {len(df)} Q&A pairs.")
+
+# Load embedding model (downloads once)
+model = SentenceTransformer("all-MiniLM-L6-v2")
+
 questions = df["question"].tolist()
 answers = df["answer"].tolist()
+question_embeddings = model.encode(questions)
 
-# Create TF‑IDF vectorizer and fit on all questions
-vectorizer = TfidfVectorizer(stop_words='english')
-question_vectors = vectorizer.fit_transform(questions)
-
-def get_relevant_context(user_question: str, k: int = 3) -> str:
-    """Return top k relevant answers using TF‑IDF similarity."""
-    # Vectorize the user question
-    user_vec = vectorizer.transform([user_question])
-    # Compute cosine similarities with all stored questions
-    similarities = cosine_similarity(user_vec, question_vectors).flatten()
-    # Get indices of top k similarities
+def get_relevant_context(question: str, k: int = 3) -> str:
+    q_emb = model.encode([question])
+    similarities = cosine_similarity(q_emb, question_embeddings)[0]
     top_indices = np.argsort(similarities)[-k:][::-1]
-    # Join the corresponding answers
     context = "\n\n".join([answers[i] for i in top_indices])
     return context
