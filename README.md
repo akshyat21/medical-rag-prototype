@@ -3,8 +3,6 @@
 A **Retrieval-Augmented Generation (RAG)** system that answers medical questions using a curated knowledge base.  
 It combines vector search (sentence‑transformers) with a large language model (Groq Llama 3.3) to produce accurate, context‑grounded answers.
 
-[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)  
-*(Replace with your actual Streamlit Cloud URL after deployment – optional)*
 
 ---
 
