@@ -38,19 +38,19 @@ It combines vector search (sentence‑transformers) with a large language model 
 
 ### Steps
 
-1. **Clone the repository**
+ **Clone the repository**
    ```bash
    git clone https://github.com/akshyat21/medical-rag-prototype.git
    cd medical-rag-prototype
 
 
    python -m venv venv
-source venv/bin/activate      # Linux/Mac
-venv\Scripts\activate         # Windows
+   source venv/bin/activate      # Linux/Mac
+    venv\Scripts\activate         # Windows
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
-GROQ_API_KEY=your_key_here
+    GROQ_API_KEY=your_key_here
 
-streamlit run app.py
+    streamlit run app.py
