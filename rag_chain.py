@@ -5,7 +5,21 @@ import torch
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load CSV
-df = pd.read_csv("medical_data.csv")
+
+import csv
+
+try:
+    df = pd.read_csv("medical_data.csv", quoting=csv.QUOTE_ALL, on_bad_lines='skip')
+except pd.errors.ParserError:
+    # Fallback: try reading line by line
+    lines = []
+    with open("medical_data.csv", "r") as f:
+        for line in f:
+            if line.count(',') == 1:  # expect exactly one comma per line
+                lines.append(line)
+    import io
+    df = pd.read_csv(io.StringIO(''.join(lines)))
+
 questions = df["question"].tolist()
 answers = df["answer"].tolist()
 
